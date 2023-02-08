@@ -1,0 +1,381 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Alegreya', sans-serif;
+    scroll-behavior: smooth;
+}
+
+
+header .nap .ul-nap{
+    background-color: white;
+    height: 60px;
+    position: fixed;
+    right: 0;
+    left: 0;
+}   
+
+header .nap .ul-nap ul{
+    float: right;
+    
+}
+
+header .nap .ul-nap img{
+    float: left;
+    width: 10%;
+    padding-right: 500px;
+}
+
+header .nap .ul-nap ul li{
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+
+header .nap .ul-nap ul li a{
+    color: silver;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+header .nap .ul-nap ul li a:hover{
+    color: black;
+}
+
+
+.container-14{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+main{
+    height: 90vh;
+    background-image: url(../img/main.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: center;
+    font-family: 'Alegreya', sans-serif;
+    color: white;
+    text-align: center;
+    
+}
+
+main p{
+    font-size: 30;
+}
+
+main h1{
+    font-size: 80;
+}
+
+main .vip{
+    font-size: large;
+    padding-bottom: 40px;
+}
+
+.family-bakery{
+    padding-top: 350px;
+}
+
+
+main .family-bakery button{
+    padding: 15px 25px;
+    border-radius:5px ;
+    color: white;
+    font-family: 'Alegreya', sans-serif;
+    color: white;
+    font-size: large;
+    transition: 0.5s;
+    cursor: pointer;
+    margin-bottom: 60px;
+}
+
+main .family-bakery button:hover{
+    background-color: white;
+    color: black;
+}
+
+main .family-bakery .learn{
+    background-color: #8e7754;
+    border: 2px solid #8e7754;
+
+}
+
+
+main .family-bakery .contact{
+    background-color: transparent;
+    border: 2px solid white;
+}
+
+
+.ball a{
+    color: white;
+    font-size: 30px;
+    border: 2px solid white;
+    border-radius: 50px;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+
+
+
+.section-2-img{
+    float: left;
+    width: 40%;
+    padding-right: 0px;
+    padding-left: 200px;
+    padding-top:150px ;
+}
+
+.section-2-img img{
+    width: 70%;
+    
+}
+
+.section-2-p{
+    float: right;
+    width: 30%;
+    margin-top: 140px;
+    padding-right: 250px;
+    position: absolute;
+    right: 170;
+}
+
+
+
+.container{
+    width: 80%;
+}
+
+.section-2-p p{
+    display: inline-block;
+}
+
+.section-2-p i{
+    margin-top: 20px;
+    border-radius:50px ;
+    border: solid 2px silver;
+    color: #8e7754;
+    padding: 10px;
+}
+
+
+
+
+.location-img img{
+    width: 40%;
+    float: right;
+    padding-top: 100px;
+}
+
+.location-p{
+    float: left;
+    width: 40%;
+    padding-top: 155px;
+    padding-left: 165px;
+}
+
+.location-p h2{
+    padding-bottom: 40px;
+}
+
+
+.clear{
+    clear: both;
+}
+
+.baking{
+    text-align: center;
+    padding-top: 80px;
+    padding-left: 200px;
+}
+
+.food{
+    display: inline-block;
+    text-align: center;
+    padding-top: 50px;
+    margin-left:40px ;
+    padding-bottom: 150px;
+    margin: 0px 0px 0px 40px;
+    width: 30%;
+}
+
+.food img{
+    width: 100%; 
+}
+
+.google-earth{
+    padding-top: 150px;
+    float: right;
+    background-color: black;
+}
+
+.google-earth iframe{
+    margin-right: 50px;
+}
+
+
+.google-earth-p{
+    width: 30%;
+    float: left;
+    padding-right: 100px;
+    padding-left: 100px;
+
+
+}
+
+.google-earth-p p{
+    display: inline-block;
+}
+
+.google-earth-p h2{
+    padding-bottom: 40px;
+}
+
+
+.our-details{
+    padding:20px 0px ;
+}
+
+.google-earth-p i{
+    border-radius: 50px;
+    border: solid 1px silver ;
+    color: #8e7754;
+    padding: 10px;
+}
+
+
+footer .footer-1{
+    background-color: rgb(99, 94, 85);
+    width: 100%;
+    height: 50vh;
+    color: rgb(163, 159, 159);
+}
+footer .footer-1 h4{
+    color: white;
+}
+
+footer .footer-1 .div-1{
+    width: 16%;
+    padding-top: 100px;
+    padding-left: 200px;
+    float: left;
+}
+
+footer .footer-1 .div-1 .p-1{
+    padding-top: 30px;
+}
+
+
+footer .footer-1 .div-1 h4{
+    color: white;
+    padding-bottom: 20px;
+}
+
+footer .footer-1 .div-2{
+    width: 16%;
+    float: left;
+    padding-left: 85px;
+    padding-top: 100px;
+    margin-top: 10px;
+}
+
+footer .footer-1 .div-2 p{
+    padding-top:15px ;
+}
+
+hr{
+    background-color: silver;
+    border: none;
+}
+
+.div-3{
+    float: left;
+    width: 16%;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+.div-3 p{
+    padding-top: 15px;
+}
+
+.div-4{
+    width: 16%;
+    float: left;
+    margin-top: 100px;
+}
+
+.div-4 a{
+    text-decoration: none;
+    color: silver;
+    transition: 0.5;
+}
+
+
+.footer-2{
+    text-align: center;
+    background-color: rgb(68, 66, 66);
+    height: 350;
+}
+
+.footer-2 img{
+    margin-top: 50px;
+}
+
+.footer-2 p{
+    color: white;
+    padding-top: 15px;
+}
+
+
+.footer-2 i{
+    color: #ccc9c6;
+    border-radius: 20px;
+    border: 1px solid silver;
+    padding: 5px 10px
+    
+}
+
+
+.facebook{
+    transition: color 1s, background-color 0.5s;
+}
+
+.facebook:hover{
+    background-color: mediumblue;
+    cursor: pointer;
+    color: white;
+}
+
+.google-plus{
+    transition: color 1s, background-color 0.5s;
+}
+
+.google-plus:hover{
+    background-color: tomato;
+    color: white;
+    cursor: pointer;
+}
+
+.link{
+    transition: color 0.5s, background-color 1s;
+}
+
+.link:hover{
+    background-color: cyan;
+    color: white;
+    cursor: pointer;
+}
+
+.twitter{
+    transition:color 0.5s, background-color 1s ;
+}
+
+.twitter:hover{
+    color: white;
+    background-color: cyan;
+    cursor: pointer;
+}
